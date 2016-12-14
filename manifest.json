@@ -1,0 +1,30 @@
+{
+    "name": "Embedding Extension",
+    "version": "1.0.0",
+    "manifest_version": 2,
+    "description": "",
+    "homepage_url": "http://www.avast.com",
+    "permissions": [
+        "tabs"
+    ],
+    "web_accessible_resources": [
+        "*"
+    ],
+    "icons": {
+        "16": "img/icon16.png",
+        "32": "img/icon32.png",
+        "48": "img/icon48.png",
+        "64": "img/icon64.png",
+        "96": "img/icon96.png",
+        "128": "img/icon128.png",
+        "256": "img/icon256.png"
+    },
+    "background": {
+        "scripts": [ "background.js" ],
+        "persistent": false
+    },
+    "browser_action": {
+        "default_title": "Show new embedding tab",
+        "default_icon": "img/icon48.png"
+    }
+}

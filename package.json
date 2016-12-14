@@ -1,0 +1,12 @@
+{
+  "name": "embedding-electron",
+  "version": "1.0.0",
+  "description": "Electron application displaying a web page",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron ."
+  },
+  "devDependencies": {
+    "electron": "^1.4.1"
+  }
+}
