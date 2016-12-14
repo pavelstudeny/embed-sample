@@ -12,6 +12,7 @@ Electron
 ========
 
 ```npm install -g electron```
+
 ```npm start```
 
 Google Chrome
